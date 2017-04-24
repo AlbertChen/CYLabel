@@ -66,9 +66,9 @@
 
 #pragma mark -
 
-+ (CGFloat)heightWithFont:(UIFont *)font marginInserts:(UIEdgeInsets)marginInserts {
++ (CGFloat)heightWithFont:(UIFont *)font contentEdgeInsets:(UIEdgeInsets)contentEdgeInsets {
     CGRect rect =  [@"cylabel" boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, CGFLOAT_MAX) options:0 attributes:@{NSFontAttributeName: font} context:NULL];
-    CGFloat height = rect.size.height + marginInserts.top + marginInserts.bottom;
+    CGFloat height = rect.size.height + contentEdgeInsets.top + contentEdgeInsets.bottom;
     return height;
 }
 

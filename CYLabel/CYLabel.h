@@ -14,6 +14,6 @@
 
 @property (nonatomic, assign) UIEdgeInsets contentEdgeInsets;
 
-+ (CGFloat)heightWithFont:(UIFont *)font marginInserts:(UIEdgeInsets)marginInserts;
++ (CGFloat)heightWithFont:(UIFont *)font contentEdgeInsets:(UIEdgeInsets)contentEdgeInsets;
 
 @end
