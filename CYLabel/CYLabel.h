@@ -12,7 +12,7 @@
 
 @property (nonatomic, assign) CGFloat cornerRadius;
 
-@property (nonatomic, assign) UIEdgeInsets marginInserts;
+@property (nonatomic, assign) UIEdgeInsets contentEdgeInsets;
 
 + (CGFloat)heightWithFont:(UIFont *)font marginInserts:(UIEdgeInsets)marginInserts;
 

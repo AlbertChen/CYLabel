@@ -51,16 +51,16 @@
 - (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines {
     CGFloat border = self.layer.borderWidth;
     CGRect rect = [super textRectForBounds:CGRectInset(bounds, border, border) limitedToNumberOfLines:numberOfLines];
-    rect.size.width += self.marginInserts.left + self.marginInserts.right;
-    rect.size.height += self.marginInserts.top + self.marginInserts.bottom;
+    rect.size.width += self.contentEdgeInsets.left + self.contentEdgeInsets.right;
+    rect.size.height += self.contentEdgeInsets.top + self.contentEdgeInsets.bottom;
     return rect;
 }
 
 - (void)drawTextInRect:(CGRect)rect {
     CGFloat border = self.layer.borderWidth;
     rect = CGRectInset(rect, border, border);
-    rect.origin.x += self.marginInserts.left;
-    rect.size.width -= self.marginInserts.left + self.marginInserts.right;
+    rect.origin.x += self.contentEdgeInsets.left;
+    rect.size.width -= self.contentEdgeInsets.left + self.contentEdgeInsets.right;
     [super drawTextInRect:rect];
 }
 
