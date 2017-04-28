@@ -46,12 +46,14 @@
 - (void)setText:(NSString *)text {
     [super setText:text];
     [self sizeToFit];
+    
+    self.hidden = text.length == 0;
 }
 
 - (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines {
     CGFloat border = self.layer.borderWidth;
     CGRect rect = [super textRectForBounds:CGRectInset(bounds, border, border) limitedToNumberOfLines:numberOfLines];
-    rect.size.width += self.contentEdgeInsets.left + self.contentEdgeInsets.right;
+    rect.size.width += self.contentEdgeInsets.left + self.contentEdgeInsets.right + 1.0;
     rect.size.height += self.contentEdgeInsets.top + self.contentEdgeInsets.bottom;
     return rect;
 }

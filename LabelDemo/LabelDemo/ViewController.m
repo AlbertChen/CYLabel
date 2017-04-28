@@ -13,6 +13,7 @@
 
 @property (nonatomic, weak) IBOutlet CYLabel *label1;
 @property (nonatomic, weak) IBOutlet CYLabel *label2;
+@property (nonatomic, weak) IBOutlet CYLabel *label3;
 
 @end
 
@@ -26,11 +27,17 @@
     contentEdgeInsets.left = contentEdgeInsets.right = height / 2;
     self.label1.cornerRadius = height / 2;
     self.label1.contentEdgeInsets = contentEdgeInsets;
-    self.label1.text = @"Labelyyy";
+    self.label1.text = @"Label 1";
 
     self.label2.cornerRadius = 5.0;
     self.label2.contentEdgeInsets = UIEdgeInsetsMake(1.0, 5.0, 1.0, 5.0);
-    self.label2.text = @"Label2yyy";
+    self.label2.text = @"Label 2";
+    
+    self.label3.cornerRadius = 0.0;
+    self.label3.contentEdgeInsets = UIEdgeInsetsMake(0.0, 2.0, 2.0, 2.0);
+    self.label3.layer.borderWidth = 1.0 / [UIScreen mainScreen].scale;
+    self.label3.layer.borderColor = self.label3.textColor.CGColor;
+    self.label3.text = @"Label 3";
 }
 
 @end
