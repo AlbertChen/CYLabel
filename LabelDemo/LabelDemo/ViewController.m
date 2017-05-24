@@ -27,7 +27,7 @@
     contentEdgeInsets.left = contentEdgeInsets.right = height / 2;
     self.label1.cornerRadius = height / 2;
     self.label1.contentEdgeInsets = contentEdgeInsets;
-    self.label1.text = @"Label 1";
+    self.label1.text = @"9";
 
     self.label2.cornerRadius = 5.0;
     self.label2.contentEdgeInsets = UIEdgeInsetsMake(1.0, 5.0, 1.0, 5.0);
