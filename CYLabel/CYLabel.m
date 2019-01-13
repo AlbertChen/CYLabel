@@ -3,7 +3,7 @@
 //  LabelDemo
 //
 //  Created by Chen Yiliang on 4/21/17.
-//  Copyright © 2017  Chen Yiliang. All rights reserved.
+//  Copyright © 2017 Chen Yiliang. All rights reserved.
 //
 
 #import "CYLabel.h"
@@ -16,6 +16,16 @@
 
 - (void)setCornerRadius:(CGFloat)cornerRadius {
     self.layer.cornerRadius = cornerRadius;
+}
+
+- (BOOL)isBackgroundLocked {
+    return _backgroundLocked;
+}
+
+- (void)setBackgroundColor:(UIColor *)backgroundColor {
+    if (!self.isBackgroundLocked) {
+        [super setBackgroundColor:backgroundColor];
+    }
 }
 
 #pragma mark - Init
@@ -53,8 +63,8 @@
 - (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines {
     CGFloat border = self.layer.borderWidth;
     CGRect rect = [super textRectForBounds:CGRectInset(bounds, border, border) limitedToNumberOfLines:numberOfLines];
-    rect.size.width += self.contentEdgeInsets.left + self.contentEdgeInsets.right + 1.0;
-    rect.size.height += self.contentEdgeInsets.top + self.contentEdgeInsets.bottom;
+    rect.size.width = rect.size.width + self.contentEdgeInsets.left + self.contentEdgeInsets.right + 1.0;
+    rect.size.height = rect.size.height + self.contentEdgeInsets.top + self.contentEdgeInsets.bottom;
     return rect;
 }
 
