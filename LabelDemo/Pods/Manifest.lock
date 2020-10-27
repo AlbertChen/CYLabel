@@ -1,0 +1,16 @@
+PODS:
+  - CYLabel (0.0.1)
+
+DEPENDENCIES:
+  - CYLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CYLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYLabel: 9090cd4b8c18432e9f00f28c3aae3bc9db821b92
+
+PODFILE CHECKSUM: 0e0e9a6c5b73dbd20ea162df43bdfe0c8efd31a7
+
+COCOAPODS: 1.9.1

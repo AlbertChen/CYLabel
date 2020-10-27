@@ -7,37 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE1B8D871EACE3EE00F69387 /* CYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B8D861EACE3EE00F69387 /* CYLabel.m */; };
+		8412AF6B06A7ADB1ED28D419 /* Pods_LabelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37268BE6A0DBC500A487EF6F /* Pods_LabelDemo.framework */; };
 		DEA1879C1EA9E98500849B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA1879B1EA9E98500849B01 /* main.m */; };
 		DEA1879F1EA9E98500849B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA1879E1EA9E98500849B01 /* AppDelegate.m */; };
 		DEA187A21EA9E98500849B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA187A11EA9E98500849B01 /* ViewController.m */; };
 		DEA187A51EA9E98500849B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA187A31EA9E98500849B01 /* Main.storyboard */; };
 		DEA187A71EA9E98500849B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA187A61EA9E98500849B01 /* Assets.xcassets */; };
 		DEA187AA1EA9E98500849B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA187A81EA9E98500849B01 /* LaunchScreen.storyboard */; };
-		DEA187B51EA9E98500849B01 /* LabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA187B41EA9E98500849B01 /* LabelDemoTests.m */; };
-		DEA187C01EA9E98500849B01 /* LabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA187BF1EA9E98500849B01 /* LabelDemoUITests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DEA187B11EA9E98500849B01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DEA1878F1EA9E98500849B01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DEA187961EA9E98500849B01;
-			remoteInfo = LabelDemo;
-		};
-		DEA187BC1EA9E98500849B01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DEA1878F1EA9E98500849B01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DEA187961EA9E98500849B01;
-			remoteInfo = LabelDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DE1B8D851EACE3EE00F69387 /* CYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLabel.h; sourceTree = "<group>"; };
-		DE1B8D861EACE3EE00F69387 /* CYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLabel.m; sourceTree = "<group>"; };
+		065538B4C2BB32ABD21BCFFD /* Pods-LabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelDemo.debug.xcconfig"; path = "Target Support Files/Pods-LabelDemo/Pods-LabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		37268BE6A0DBC500A487EF6F /* Pods_LabelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA773A5ED3E65EE5D64EAB7 /* Pods-LabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelDemo.release.xcconfig"; path = "Target Support Files/Pods-LabelDemo/Pods-LabelDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DEA187971EA9E98500849B01 /* LabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA1879B1EA9E98500849B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEA1879D1EA9E98500849B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,12 +30,6 @@
 		DEA187A61EA9E98500849B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA187A91EA9E98500849B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA187AB1EA9E98500849B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEA187B01EA9E98500849B01 /* LabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA187B41EA9E98500849B01 /* LabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelDemoTests.m; sourceTree = "<group>"; };
-		DEA187B61EA9E98500849B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEA187BB1EA9E98500849B01 /* LabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA187BF1EA9E98500849B01 /* LabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelDemoUITests.m; sourceTree = "<group>"; };
-		DEA187C11EA9E98500849B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,43 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187AD1EA9E98500849B01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187B81EA9E98500849B01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8412AF6B06A7ADB1ED28D419 /* Pods_LabelDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE1B8D841EACE3EE00F69387 /* CYLabel */ = {
+		9363E4E31E367BA545471318 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DE1B8D851EACE3EE00F69387 /* CYLabel.h */,
-				DE1B8D861EACE3EE00F69387 /* CYLabel.m */,
+				065538B4C2BB32ABD21BCFFD /* Pods-LabelDemo.debug.xcconfig */,
+				CCA773A5ED3E65EE5D64EAB7 /* Pods-LabelDemo.release.xcconfig */,
 			);
-			name = CYLabel;
-			path = ../../CYLabel;
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B47A6781B9247E0CC5C2E13B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37268BE6A0DBC500A487EF6F /* Pods_LabelDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DEA1878E1EA9E98500849B01 = {
 			isa = PBXGroup;
 			children = (
 				DEA187991EA9E98500849B01 /* LabelDemo */,
-				DEA187B31EA9E98500849B01 /* LabelDemoTests */,
-				DEA187BE1EA9E98500849B01 /* LabelDemoUITests */,
 				DEA187981EA9E98500849B01 /* Products */,
+				9363E4E31E367BA545471318 /* Pods */,
+				B47A6781B9247E0CC5C2E13B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				DEA187971EA9E98500849B01 /* LabelDemo.app */,
-				DEA187B01EA9E98500849B01 /* LabelDemoTests.xctest */,
-				DEA187BB1EA9E98500849B01 /* LabelDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +83,6 @@
 		DEA187991EA9E98500849B01 /* LabelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DE1B8D841EACE3EE00F69387 /* CYLabel */,
 				DEA1879D1EA9E98500849B01 /* AppDelegate.h */,
 				DEA1879E1EA9E98500849B01 /* AppDelegate.m */,
 				DEA187A01EA9E98500849B01 /* ViewController.h */,
@@ -136,24 +104,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DEA187B31EA9E98500849B01 /* LabelDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				DEA187B41EA9E98500849B01 /* LabelDemoTests.m */,
-				DEA187B61EA9E98500849B01 /* Info.plist */,
-			);
-			path = LabelDemoTests;
-			sourceTree = "<group>";
-		};
-		DEA187BE1EA9E98500849B01 /* LabelDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DEA187BF1EA9E98500849B01 /* LabelDemoUITests.m */,
-				DEA187C11EA9E98500849B01 /* Info.plist */,
-			);
-			path = LabelDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA187C41EA9E98500849B01 /* Build configuration list for PBXNativeTarget "LabelDemo" */;
 			buildPhases = (
+				62D49CF768C59994C347C503 /* [CP] Check Pods Manifest.lock */,
 				DEA187931EA9E98500849B01 /* Sources */,
 				DEA187941EA9E98500849B01 /* Frameworks */,
 				DEA187951EA9E98500849B01 /* Resources */,
+				0A24D8F69390BDB66647D70F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,42 +125,6 @@
 			productName = LabelDemo;
 			productReference = DEA187971EA9E98500849B01 /* LabelDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DEA187AF1EA9E98500849B01 /* LabelDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEA187C71EA9E98500849B01 /* Build configuration list for PBXNativeTarget "LabelDemoTests" */;
-			buildPhases = (
-				DEA187AC1EA9E98500849B01 /* Sources */,
-				DEA187AD1EA9E98500849B01 /* Frameworks */,
-				DEA187AE1EA9E98500849B01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DEA187B21EA9E98500849B01 /* PBXTargetDependency */,
-			);
-			name = LabelDemoTests;
-			productName = LabelDemoTests;
-			productReference = DEA187B01EA9E98500849B01 /* LabelDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DEA187BA1EA9E98500849B01 /* LabelDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEA187CA1EA9E98500849B01 /* Build configuration list for PBXNativeTarget "LabelDemoUITests" */;
-			buildPhases = (
-				DEA187B71EA9E98500849B01 /* Sources */,
-				DEA187B81EA9E98500849B01 /* Frameworks */,
-				DEA187B91EA9E98500849B01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DEA187BD1EA9E98500849B01 /* PBXTargetDependency */,
-			);
-			name = LabelDemoUITests;
-			productName = LabelDemoUITests;
-			productReference = DEA187BB1EA9E98500849B01 /* LabelDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -224,16 +140,6 @@
 						DevelopmentTeam = ZF6TVZV5SQ;
 						ProvisioningStyle = Automatic;
 					};
-					DEA187AF1EA9E98500849B01 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DEA187961EA9E98500849B01;
-					};
-					DEA187BA1EA9E98500849B01 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DEA187961EA9E98500849B01;
-					};
 				};
 			};
 			buildConfigurationList = DEA187921EA9E98500849B01 /* Build configuration list for PBXProject "LabelDemo" */;
@@ -241,6 +147,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -250,8 +157,6 @@
 			projectRoot = "";
 			targets = (
 				DEA187961EA9E98500849B01 /* LabelDemo */,
-				DEA187AF1EA9E98500849B01 /* LabelDemoTests */,
-				DEA187BA1EA9E98500849B01 /* LabelDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,64 +172,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEA187AE1EA9E98500849B01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187B91EA9E98500849B01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A24D8F69390BDB66647D70F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabelDemo/Pods-LabelDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYLabel/CYLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabelDemo/Pods-LabelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D49CF768C59994C347C503 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEA187931EA9E98500849B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1B8D871EACE3EE00F69387 /* CYLabel.m in Sources */,
 				DEA187A21EA9E98500849B01 /* ViewController.m in Sources */,
 				DEA1879F1EA9E98500849B01 /* AppDelegate.m in Sources */,
 				DEA1879C1EA9E98500849B01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEA187AC1EA9E98500849B01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEA187B51EA9E98500849B01 /* LabelDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187B71EA9E98500849B01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEA187C01EA9E98500849B01 /* LabelDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DEA187B21EA9E98500849B01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DEA187961EA9E98500849B01 /* LabelDemo */;
-			targetProxy = DEA187B11EA9E98500849B01 /* PBXContainerItemProxy */;
-		};
-		DEA187BD1EA9E98500849B01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DEA187961EA9E98500849B01 /* LabelDemo */;
-			targetProxy = DEA187BC1EA9E98500849B01 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DEA187A31EA9E98500849B01 /* Main.storyboard */ = {
@@ -436,6 +340,7 @@
 		};
 		DEA187C51EA9E98500849B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065538B4C2BB32ABD21BCFFD /* Pods-LabelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;
@@ -449,6 +354,7 @@
 		};
 		DEA187C61EA9E98500849B01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA773A5ED3E65EE5D64EAB7 /* Pods-LabelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;
@@ -457,52 +363,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.LabelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DEA187C81EA9E98500849B01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LabelDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.LabelDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelDemo.app/LabelDemo";
-			};
-			name = Debug;
-		};
-		DEA187C91EA9E98500849B01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LabelDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.LabelDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelDemo.app/LabelDemo";
-			};
-			name = Release;
-		};
-		DEA187CB1EA9E98500849B01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LabelDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.LabelDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LabelDemo;
-			};
-			name = Debug;
-		};
-		DEA187CC1EA9E98500849B01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LabelDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.LabelDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LabelDemo;
 			};
 			name = Release;
 		};
@@ -523,24 +383,6 @@
 			buildConfigurations = (
 				DEA187C51EA9E98500849B01 /* Debug */,
 				DEA187C61EA9E98500849B01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEA187C71EA9E98500849B01 /* Build configuration list for PBXNativeTarget "LabelDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DEA187C81EA9E98500849B01 /* Debug */,
-				DEA187C91EA9E98500849B01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEA187CA1EA9E98500849B01 /* Build configuration list for PBXNativeTarget "LabelDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DEA187CB1EA9E98500849B01 /* Debug */,
-				DEA187CC1EA9E98500849B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
